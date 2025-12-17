@@ -1,25 +1,26 @@
-/* Global Styles */
+/* General Styles */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1A1A2E; /* Dark background to match the Tokyo Nights theme */
+    background-color: #1A1A2E; /* Dark, moody background */
     color: #D1D3D8; /* Light gray text */
     text-align: center;
 }
 
 /* Header */
 header {
-    background-color: #121222; /* Dark background for the header */
-    color: #FF77FF; /* Neon purple text */
-    padding: 30px 20px;
-    box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Neon purple glow */
+    background-color: #121222; /* Dark background */
+    color: #FF77FF; /* Neon pink/purple */
+    padding: 60px 20px;
+    box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Neon glow */
+    text-align: center;
 }
 
 header h1 {
-    font-size: 48px; /* Larger text for the main title */
-    margin: 0;
+    font-size: 48px;
     text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+    margin-bottom: 10px;
 }
 
 header p {
@@ -29,38 +30,32 @@ header p {
 
 /* Announcements Section */
 #announcements {
-    background-color: #2A2A3C; /* Dark background */
+    background-color: #2A2A3C;
+    color: #FF77FF;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     max-width: 1000px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4); /* Neon pink glow */
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
 }
 
 #announcements h2 {
     font-size: 28px;
-    color: #FF77FF;
     margin-bottom: 10px;
     text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
 }
 
-#announcements p {
-    font-size: 18px;
-    color: #E6E6FA;
-    margin: 0;
-    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
-}
-
 /* Password Lock Section */
 #password-lock {
-    background-color: #2A2A3C; /* Dark background */
+    background-color: #2A2A3C;
+    color: #E6E6FA;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     max-width: 1000px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4); /* Neon pink glow */
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
 }
 
 #password-lock h2 {
@@ -72,66 +67,70 @@ header p {
 
 #password-lock p {
     font-size: 18px;
-    color: #E6E6FA;
-    margin: 0;
     text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
 }
 
 #password-lock strong {
-    color: #FF00FF; /* Neon pink color for emphasis */
+    color: #FF00FF;
 }
 
 /* Room List Section */
-.section {
+#rooms-list {
+    margin: 20px auto;
     padding: 40px 20px;
-    margin: 10px auto;
     width: 80%;
     max-width: 1200px;
 }
 
-.room-list h2 {
-    font-size: 32px;
+#rooms-list h2 {
+    font-size: 36px;
     color: #FF77FF;
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
 }
 
-.room {
-    background-color: #121222; /* Darker background for each room */
-    border-radius: 10px;
+/* Room Card */
+.room-card {
+    background-color: #121222;
+    margin-bottom: 20px;
     padding: 20px;
-    margin: 15px 0;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.room h3 {
-    font-size: 24px;
-    color: #FF00FF; /* Neon pink for room titles */
-    margin: 0;
-    text-shadow: 0 0 5px rgba(255, 119, 255, 0.8);
+.room-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Stronger glow */
 }
 
-.room p {
-    font-size: 16px;
+.room-card a {
     color: #E6E6FA;
-}
-
-/* Link Styling */
-a {
     text-decoration: none;
-    color: #FF77FF;
-    font-size: 18px;
-    font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
+.room-info h3 {
+    font-size: 24px;
+    color: #FF00FF;
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.6);
+}
+
+.room-info p {
+    font-size: 18px;
+    color: #E6E6FA;
+    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
+}
+
+.room-info .naughty {
+    font-size: 18px;
+    font-style: italic;
     color: #FF00FF;
 }
 
-/* Discord Section */
+/* Discord Link Section */
 #discord {
     background-color: #2A2A3C;
+    color: #E6E6FA;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -147,34 +146,8 @@ a:hover {
     text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
 }
 
-#discord p {
-    font-size: 18px;
-    color: #E6E6FA;
-    margin: 0;
-    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
-}
-
 #discord a {
     font-size: 18px;
     color: #FF77FF;
     font-weight: bold;
-}
-
-#discord a:hover {
     text-decoration: underline;
-    color: #FF00FF;
-}
-
-/* Footer */
-footer {
-    background-color: #121222;
-    color: #D1D3D8;
-    font-size: 14px;
-    padding: 10px 0;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(255, 119, 255, 0.3);
-}
-
-footer p {
-    margin: 0;
-}
