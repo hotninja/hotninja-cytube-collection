@@ -1,153 +1,159 @@
-/* General Styles */
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1A1A2E; /* Dark, moody background */
-    color: #D1D3D8; /* Light gray text */
-    text-align: center;
-}
+    /* General Styles */
+    body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1A1A2E; /* Dark, moody background */
+        color: #D1D3D8; /* Light gray text */
+        text-align: center;
+    }
 
-/* Header */
-header {
-    background-color: #121222; /* Dark background */
-    color: #FF77FF; /* Neon pink/purple */
-    padding: 60px 20px;
-    box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Neon glow */
-    text-align: center;
-}
+    /* Header */
+    header {
+        background-color: #121222; /* Dark background */
+        color: #FF77FF; /* Neon pink/purple */
+        padding: 60px 20px;
+        box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Neon glow */
+        text-align: center;
+    }
 
-header h1 {
-    font-size: 48px;
-    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
-    margin-bottom: 10px;
-}
+    header h1 {
+        font-size: 48px;
+        text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+        margin-bottom: 10px;
+    }
 
-header p {
-    font-size: 20px;
-    margin-top: 10px;
-}
+    header p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
 
-/* Announcements Section */
-#announcements {
-    background-color: #2A2A3C;
-    color: #FF77FF;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 1000px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
-}
+    /* Announcements Section */
+    #announcements {
+        background-color: #2A2A3C;
+        color: #FF77FF;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 1000px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
+    }
 
-#announcements h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
-}
+    #announcements h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+    }
 
-/* Password Lock Section */
-#password-lock {
-    background-color: #2A2A3C;
-    color: #E6E6FA;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 1000px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
-}
+    /* Password Lock Section */
+    #password-lock {
+        background-color: #2A2A3C;
+        color: #E6E6FA;
+        padding: 15px 20px;
+        margin: 40px auto;
+        width: 80%;
+        max-width: 1000px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
+        font-size: 16px; /* Smaller font for the notice */
+    }
 
-#password-lock h2 {
-    font-size: 28px;
-    color: #FF77FF;
-    margin-bottom: 10px;
-    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
-}
+    #password-lock h2 {
+        font-size: 22px;
+        color: #FF77FF;
+        margin-bottom: 10px;
+        text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+    }
 
-#password-lock p {
-    font-size: 18px;
-    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
-}
+    #password-lock p {
+        font-size: 16px;
+        text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
+    }
 
-#password-lock strong {
-    color: #FF00FF;
-}
+    #password-lock strong {
+        color: #FF00FF;
+    }
 
-/* Room List Section */
-#rooms-list {
-    margin: 20px auto;
-    padding: 40px 20px;
-    width: 80%;
-    max-width: 1200px;
-}
+    /* Room List Section */
+    #rooms-list {
+        margin: 20px auto;
+        padding: 40px 20px;
+        width: 80%;
+        max-width: 1200px;
+    }
 
-#rooms-list h2 {
-    font-size: 36px;
-    color: #FF77FF;
-    margin-bottom: 20px;
-    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
-}
+    #rooms-list h2 {
+        font-size: 36px;
+        color: #FF77FF;
+        margin-bottom: 20px;
+        text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+    }
 
-/* Room Card */
-.room-card {
-    background-color: #121222;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+    /* Room Card */
+    .room-card {
+        background-color: #121222;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-.room-card:hover {
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Stronger glow */
-}
+    .room-card:hover {
+        transform: scale(1.05); /* Slight zoom effect */
+        box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Stronger glow */
+    }
 
-.room-card a {
-    color: #E6E6FA;
-    text-decoration: none;
-}
+    .room-card a {
+        color: #E6E6FA;
+        text-decoration: none;
+    }
 
-.room-info h3 {
-    font-size: 24px;
-    color: #FF00FF;
-    text-shadow: 0 0 10px rgba(255, 119, 255, 0.6);
-}
+    .room-info h3 {
+        font-size: 24px;
+        color: #FF00FF;
+        text-shadow: 0 0 10px rgba(255, 119, 255, 0.6);
+    }
 
-.room-info p {
-    font-size: 18px;
-    color: #E6E6FA;
-    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
-}
+    .room-info p {
+        font-size: 18px;
+        color: #E6E6FA;
+        text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
+    }
 
-.room-info .naughty {
-    font-size: 18px;
-    font-style: italic;
-    color: #FF00FF;
-}
+    .room-info .naughty {
+        font-size: 18px;
+        font-style: italic;
+        color: #FF00FF;
+    }
 
-/* Discord Link Section */
-#discord {
-    background-color: #2A2A3C;
-    color: #E6E6FA;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 1000px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
-}
+    /* Discord Link Section */
+    #discord {
+        background-color: #2A2A3C;
+        color: #E6E6FA;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 1000px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
+    }
 
-#discord h2 {
-    font-size: 28px;
-    color: #FF77FF;
-    margin-bottom: 10px;
-    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
-}
+    #discord h2 {
+        font-size: 28px;
+        color: #FF77FF;
+        margin-bottom: 10px;
+        text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+    }
 
-#discord a {
-    font-size: 18px;
-    color: #FF77FF;
-    font-weight: bold;
-    text-decoration: underline;
+    #discord a {
+        font-size: 18px;
+        color: #FF77FF;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #discord a:hover {
+        color: #FF00FF;
+    }
