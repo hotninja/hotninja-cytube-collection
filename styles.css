@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A2E; /* Dark background to match the Tokyo Nights theme */
+    color: #D1D3D8; /* Light gray text */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #121222; /* Dark background for the header */
+    color: #FF77FF; /* Neon purple text */
+    padding: 30px 20px;
+    box-shadow: 0 0 20px rgba(255, 119, 255, 0.8); /* Neon purple glow */
+}
+
+header h1 {
+    font-size: 48px; /* Larger text for the main title */
+    margin: 0;
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Announcements Section */
+#announcements {
+    background-color: #2A2A3C; /* Dark background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4); /* Neon pink glow */
+}
+
+#announcements h2 {
+    font-size: 28px;
+    color: #FF77FF;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+}
+
+#announcements p {
+    font-size: 18px;
+    color: #E6E6FA;
+    margin: 0;
+    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
+}
+
+/* Password Lock Section */
+#password-lock {
+    background-color: #2A2A3C; /* Dark background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4); /* Neon pink glow */
+}
+
+#password-lock h2 {
+    font-size: 28px;
+    color: #FF77FF;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+}
+
+#password-lock p {
+    font-size: 18px;
+    color: #E6E6FA;
+    margin: 0;
+    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
+}
+
+#password-lock strong {
+    color: #FF00FF; /* Neon pink color for emphasis */
+}
+
+/* Room List Section */
+.section {
+    padding: 40px 20px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.room-list h2 {
+    font-size: 32px;
+    color: #FF77FF;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+}
+
+.room {
+    background-color: #121222; /* Darker background for each room */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+}
+
+.room h3 {
+    font-size: 24px;
+    color: #FF00FF; /* Neon pink for room titles */
+    margin: 0;
+    text-shadow: 0 0 5px rgba(255, 119, 255, 0.8);
+}
+
+.room p {
+    font-size: 16px;
+    color: #E6E6FA;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: #FF77FF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+/* Discord Section */
+#discord {
+    background-color: #2A2A3C;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
+}
+
+#discord h2 {
+    font-size: 28px;
+    color: #FF77FF;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.8);
+}
+
+#discord p {
+    font-size: 18px;
+    color: #E6E6FA;
+    margin: 0;
+    text-shadow: 0 0 5px rgba(255, 119, 255, 0.6);
+}
+
+#discord a {
+    font-size: 18px;
+    color: #FF77FF;
+    font-weight: bold;
+}
+
+#discord a:hover {
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+/* Footer */
+footer {
+    background-color: #121222;
+    color: #D1D3D8;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 119, 255, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
